@@ -1,6 +1,6 @@
 export default function taskBlock(trueOrFalse) {
-  const task = false; // Using 'const' since we don't want it to be re-assigned outside the block
-  const task2 = true; //the same here
+  const task = false;
+  const task2 = true;
 
   if (trueOrFalse) {
     const task = true; // eslint-disable-line no-unused-vars
